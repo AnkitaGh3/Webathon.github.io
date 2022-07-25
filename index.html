@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            margin: 0px;
+            overflow-x: hidden;
+            background-color: black;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+            position: absolute;
+            top: 0px;
+            right: 70px;
+            color: white;
+            font-size: 28px;
+        }
+
+        .flex-child {
+            margin-right: 45px;
+        }
+
+        .bg {
+            background-size: cover;
+            opacity: 60%;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .flex-child:hover {
+            color: #F19C74;
+            text-decoration: underline;
+        }
+
+        .active {
+            color: #F19C74;
+            text-decoration: underline;
+            text-decoration-color: white;
+        }
+     a{
+              color:white;
+              text-decoration:none;
+     }
+        .text {
+            position: absolute;
+            top: 50%;
+            left: 30%;
+            letter-spacing: 0.395em;
+            color: #F19C74;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            /* font-size: 48px; */
+            /* line-height: 58px; */
+        }
+
+        .heading {
+            color: white;
+            font-size: 40px;
+            text-align: center;
+            margin-top: 70px;
+            text-decoration: overline;
+            text-decoration: underline;
+        }
+
+        .htext {
+            color: #FFD5D5;
+            text-align: center;
+            font-size: 28px;
+            letter-spacing: 0.21em;
+            margin-top: 35px;
+            line-height: 38px;
+        }
+
+        li::before {
+            content: "•";
+            color: white;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em
+        }
+
+        .about {
+            background-color: #3A1C0D;
+            height: 96px;
+            margin-top: 40px;
+            color: #F19C74;
+        }
+
+        .aimg {
+            width: 100%;
+            height: 546px;
+            position: absolute;
+            top:235%;
+        }
+        .atext1{
+            
+            color:white;
+            font-size: 20px;
+            letter-spacing: 0.20em;
+            text-align: justify; 
+        }
+        .atext2{
+            color: white;
+            font-size: 20px;
+            letter-spacing: 0.25em;
+            text-align: justify;
+        }
+       
+    </style>
+    <title>IT</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <img class="bg" src="bg.jpg">
+        <div class="container">
+            <div class="flex-child active">Home</div>
+            <div class="flex-child"><a href="#about">About</a></div>
+            <div class="flex-child">Faculty</div>
+            <div class="flex-child">Students</div>
+            <div class="flex-child">Contact Us</div>
+        </div>
+        <div class="text">
+            Information Technology
+        </div>
+    </div>
+    <div>
+
+        <div class="heading">VISION</div>
+        <div class="htext">To provide technically competent and highly skilled<br> human resources for
+            the industry and society through<br> excellence in quality of education and
+            research in the<br> area of information technology.</div>
+    </div>
+    <div>
+        <div class="heading">MISSION</div>
+        <div class="htext">
+            <ul>
+                <li>To offer the state of art,UG,PG and Doctoral programs</li>
+                <li> To take up creative and innovative research in<br> collaboration with various agencies to make the
+                    nation<br>as knowledge power.
+                </li>
+                <li>To provide an environment for students and faculties to<br> innovate, apply and transfer knowledge
+                    as
+                    continuous<br>teaching-learning process.
+                </li>
+                <li>To meet the needs of ever changing society and industry<br>through efficient and innovative
+                    technologies.
+                </li>
+                <li>To produce valuable human resources with commitment<br>to lifelong learning.</li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="heading" style="margin-top: 40px;"> ABOUT</div>
+        <div>
+        <img class="aimg" src="Image.png">
+        <div class="atext1" style="position:absolute; top:250%; left:30%; right: 30%;">Information technology engineering used to be 
+            known more commonly as information engineering;
+            this changed in the early 21st century, and
+            information engineering took on a new meaning.
+        </div>
+        <div class="atext2" style="position:absolute; top:270%; left: 5%; right: 5%;">Information technology engineering has a somewhat checkered history that follows
+            two very distinct threads. It originated in Australia between 1976 and 1980, and
+            appears first in the literature in a series of Six InDepth articles by the same name
+            published by US Computerworld in May – June 1981. </div>
+            <div class="atext2"style="position:absolute; top:290%; left: 5%; right: 5%;"> Information technology engineering first provided data analysis and database design techniques that could be used by database administrators (DBAs) and by systems analysts to develop database designs and systems based upon an understanding of the operational processing needs of organizations for the 1980s.</div>
+    </div>
+
+</body>
+
+</html>
