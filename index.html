@@ -116,21 +116,23 @@
             margin-left: -1em
         }
 
-        .about {
-            background-color: #3A1C0D;
-            height: 96px;
-            margin-top: 40px;
+        .about{
+            background-color: #351117;
+            height: 100px;
+            margin-top: 10px;
             color: #F19C74;
         }
 
         .aimg {
             width: 100%;
             height: 546px;
-            position: absolute;
-            top:246%;
+            position: relative; 
         }
         .atext1{
-            
+            position: absolute;
+            top:270%;
+            left: 30%;
+            right: 30%;
             color:white;
             font-size: 20px;
             letter-spacing: 0.20em;
@@ -143,12 +145,34 @@
             text-align: justify;
         }
         #about{
-            color: white;
+            color: #c8c8c8;
             font-size: 40px;
-            text-align: center;
-            margin-top: 70px;
+            /* text-align: center; */
+            margin-top: 10px;
         }
-       
+        .contact{
+            font-size: 20px;
+            color: #c8c8c8;
+            background-color: #272626;
+            position: absolute; 
+            top: 350%; 
+            left: 0%;
+            right: 0%;
+        }
+       .hod{
+        width: 150px; 
+        border-radius: 40%;
+        margin: 20px; 
+        float: left; 
+       }
+       section{
+        text-align: left;
+        position: relative;
+        left: 30px;
+        top: 28px;
+        
+
+       }
     </style>
     <title>IT</title>
 </head>
@@ -193,22 +217,47 @@
                 <li>To produce valuable human resources with commitment<br>to lifelong learning.</li>
             </ul>
 
+            <br><br><br>
         </div>
     </div>
     <div class="about" id="about">
-        <div style="margin-top: 40px;"> ABOUT</div>
+        <div style="margin-top: 50px;"> <span style="padding: 20px;">ABOUT</span> </div>
+        <br>
         <div>
         <img class="aimg" src="Image.png">
-        <div class="atext1" style="position:absolute; top:250%; left:30%; right: 30%;">Information technology engineering used to be 
+        <div class="atext1"><center>Information technology engineering used to be 
             known more commonly as information engineering;
             this changed in the early 21st century, and
-            information engineering took on a new meaning.
+            information engineering took on a new meaning.</center>
         </div>
-        <div class="atext2" style="position:absolute; top:270%; left: 5%; right: 5%;">Information technology engineering has a somewhat checkered history that follows
+        <br>
+        <div class="atext2" style="position: absolute; top:295%; left: 5%; right: 5%;">
+            Information technology engineering has a somewhat checkered history that follows
             two very distinct threads. It originated in Australia between 1976 and 1980, and
             appears first in the literature in a series of Six InDepth articles by the same name
-            published by US Computerworld in May – June 1981. </div>
-            <div class="atext2"style="position:absolute; top:290%; left: 5%; right: 5%;"> Information technology engineering first provided data analysis and database design techniques that could be used by database administrators (DBAs) and by systems analysts to develop database designs and systems based upon an understanding of the operational processing needs of organizations for the 1980s.</div>
+            published by US Computerworld in May - June 1981. </div>
+
+            <div class="atext2" style="position: absolute; top:310%; left: 5%; right: 5%;"> 
+            Information technology engineering first provided data analysis and database 
+            design techniques that could be used by database administrators (DBAs) and by systems analysts 
+            to develop database designs and systems based upon an 
+            understanding of the operational processing needs of organizations for the 1980s.</div>
+    </div>
+
+    <div class="contact" id="contact">
+
+        <img src="HOD.jpg" class="hod">
+        <section>Address for Correspondence
+        <br>
+        Dr. S C Dutta <br>
+        Head, Department of Information Technology <br>
+        BIT Sindri, P.O.: Sindri Institute, Sindri <br>
+        Dist: Dhanbad, Jharkhand, India PIN: 828123 <br>
+        Phone: +91-9431379679 <br>
+        Email :  scdutta@bitsindri.ac.in , hod.it@bitsindri.ac.in
+        <br>
+        Fax: +91-326-2350729.
+        </section>
     </div>
 
 </body>
